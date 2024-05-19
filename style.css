@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+   
+body{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+    
+
+}
+
+.logo{
+    margin-right:20px;
+    float: left;
+}
+#name{
+    color:red;
+    font-style: italic;
+    font-weight: 900;
+    font-size: larger;
+}
+
+#naam{
+    font-weight: 900;
+    color:rgb(232, 110, 110);
+    font-style: italic;
+    
+   
+}
+
+nav{
+   margin-bottom:100%;
+   margin-right: 10%;
+   background: black;
+   position: fixed; 
+   top: 0;
+}
+
+nav a {
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    font-size: 1.1em;
+    color:rgb(32, 222, 32);
+    text-decoration: none;
+    padding: 20px;
+    transition: .5s;   
+}
+
+nav a:hover{
+    color:#0ef;
+}
+nav a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-bottom:2px solid #0ef ;
+    border-radius: 15px;
+    transform: scale(1) translateY(50px);
+    opacity: 0;
+    transition: .3s;
+}
+nav a:hover span{
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+    border-color: blue;
+    padding: 5px ;
+    margin-left: 20%;
+    margin: 10px;
+    font-weight: 800;
+    display: inline;
+    
+}
+.btn:hover{
+    position: relative;
+    cursor: pointer;
+    background-color:red;
+}
+
+
+.span{
+    color:red;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.content{
+    color: whitesmoke;
+   
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+
+    position: fixed; 
+    top: 50%;
+    right: 80%; 
+    transform: translate(50%, -50%);
+   
+}
+.content h1{
+    padding: 0px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.content p{
+    margin-top: 2px;
+    font-weight: bolder;
+}
+.hacker{
+    color: rgb(24, 255, 24);
+}
+
+.image{
+    margin-top:60px;
+    padding-left: 500px;
+    padding-right: 0%;
+    position: absolute;
+    top: -10px;
+    align-items: center;
+    top: -80%;
+    left: 30%;
+   transform: scale(1.2);
+   
+   }
+    
+    
+
+
+
+
+   
+   
+
+   
+
+
+
+
+
+
